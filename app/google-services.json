@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "894039898987",
+    "firebase_url": "https://chatchat-8b2a6.firebaseio.com",
+    "project_id": "chatchat-8b2a6",
+    "storage_bucket": "chatchat-8b2a6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:894039898987:android:840bddd80e2a4a3c",
+        "android_client_info": {
+          "package_name": "com.k.kyoungae.link"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "894039898987-2jq89o2hn359pjj9hgqut5r8vjckgjmb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDq-Va7RDrmG-dr6g7KEjArEQCiaHWaI8"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
