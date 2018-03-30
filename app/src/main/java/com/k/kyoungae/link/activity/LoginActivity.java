@@ -32,6 +32,7 @@ import android.widget.EditText;
 import android.widget.TextView;
 
 import com.k.kyoungae.link.R;
+import com.k.kyoungae.link.databinding.ActivityLogin2Binding;
 import com.k.kyoungae.link.databinding.ActivityLoginBinding;
 import com.k.kyoungae.link.databinding.ActivityMainBinding;
 
@@ -45,14 +46,18 @@ import static android.Manifest.permission.READ_CONTACTS;
  */
 public class LoginActivity extends AppCompatActivity{
 
-    private ActivityLoginBinding binding;
+    private ActivityLogin2Binding binding;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        binding = DataBindingUtil.setContentView(this, R.layout.activity_login);
+        binding = DataBindingUtil.setContentView(this, R.layout.activity_login2);
 
         setSupportActionBar(binding.toolbar);
+        setTitle("Log in");
+
+
+
     }
 }
 
